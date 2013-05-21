@@ -1,7 +1,10 @@
 # http://projecteuler.net/problem=3
 # The prime factors of 13195 are 5, 7, 13 and 29.
 # What is the largest prime factor of the number 600851475143 ?
-SMALLEST_PRIM = 2
+
+# A: 6857
+
+SMALLEST_PRIME = 2
 
 def p3
   num = 600851475143
@@ -17,7 +20,7 @@ def p3
 end
 
 def find_prime_factor(num)
-  (SMALLEST_PRIM..num).each { |e| return e if num % e == 0 && prime?(e)}
+  (SMALLEST_PRIME..num).each { |e| return e if num % e == 0 && prime?(e)}
 end
 
 def prime?(num)

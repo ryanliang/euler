@@ -1,2 +1,2 @@
-My solution to Project Euler[http://projecteuler.net/] problems
+My solution to [Project Euler][http://projecteuler.net/] problems
 ===============================================================
